@@ -11,12 +11,13 @@
   height: 750px;
   border-bottom: 8px solid gray;
   width: 100%;
+  background-image: url("/images/descarga.png");
 }
 .bienvenida ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 .bienvenida ul .netflix-icon {
   width: 180px;
@@ -33,4 +34,42 @@
   height: 36px;
   color: white;
   border-radius: 4px;
+}
+.bienvenida .welcome-titles {
+  margin-top: 9%;
+  text-align: center;
+  color: white;
+}
+.bienvenida .welcome-titles .title {
+  font-size: 42px;
+  width: 42%;
+  margin: auto;
+}
+.bienvenida .welcome-titles .subtitle {
+  font-size: 28px;
+  margin-top: 20px;
+}
+.bienvenida .welcome-titles .mail-desc {
+  font-size: 18px;
+  margin-top: 26px;
+}
+.bienvenida .welcome-titles .email {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.bienvenida .welcome-titles .email input {
+  width: 480px;
+  padding: 20px;
+}
+.bienvenida .welcome-titles .email button {
+  width: 200px;
+  padding: 12px;
+  font-size: 26px;
+  background-color: #DC0611;
+  border: none;
+  color: white;
+}
+.bienvenida .welcome-titles .email button i {
+  color: white;
 }/*# sourceMappingURL=styles.css.map */

@@ -13,11 +13,12 @@
     height: 750px;
     border-bottom: 8px solid gray;
     width: 100%;
+    background-image: url("/images/descarga.png") ;
     ul{
         display: flex;
         list-style: none;
         justify-content: space-between;
-        margin-top: 20px;
+        padding-top: 20px;
         .netflix-icon{
             width: 180px;
             margin-left: 60px;
@@ -35,6 +36,44 @@
             border-radius: 4px;
         }
     }
+    .welcome-titles{
+        margin-top: 9%;
+        text-align: center;
+        color: white;
+        .title{
+            font-size: 42px;
+            width: 42%;
+            margin: auto;           
+        }
+        .subtitle{
+            font-size: 28px;
+            margin-top: 20px;
+        }
+        .mail-desc{
+            font-size: 18px;
+            margin-top: 26px;
+        }
+        .email{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            input{
+                width: 480px;
+                padding: 20px;
+            }
+            button{
+                width: 200px;
+                padding: 12px;
+                font-size: 26px;
+                background-color: $netflixRed;
+                border: none;
+                color: white;
+                i{
+                    color: white;
+                }
+            }
+        }
+    }
 
-    
+
 }
