@@ -9,9 +9,10 @@
 .bienvenida {
   background-color: white;
   height: 750px;
-  border-bottom: 8px solid gray;
+  border-bottom: 8px solid rgb(39, 39, 39);
   width: 100%;
   background-image: url("/images/descarga.png");
+  display: block;
 }
 .bienvenida ul {
   display: flex;
@@ -39,6 +40,7 @@
   margin-top: 9%;
   text-align: center;
   color: white;
+  display: block;
 }
 .bienvenida .welcome-titles .title {
   font-size: 42px;
@@ -61,6 +63,9 @@
 .bienvenida .welcome-titles .email input {
   width: 480px;
   padding: 20px;
+  border: none;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .bienvenida .welcome-titles .email button {
   width: 200px;
@@ -69,7 +74,39 @@
   background-color: #DC0611;
   border: none;
   color: white;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
 }
 .bienvenida .welcome-titles .email button i {
   color: white;
+}
+
+.enjoy {
+  width: 100%;
+  margin-top: 188px;
+  height: 500px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-bottom: 8px solid rgb(39, 39, 39);
+}
+.enjoy .enjoy-titles {
+  margin-left: 400px;
+  margin-top: 160px;
+}
+.enjoy .enjoy-titles h2 {
+  font-size: 46px;
+  margin-bottom: 18px;
+}
+.enjoy .enjoy-titles p {
+  font-size: 24px;
+  width: 80%;
+}
+.enjoy img {
+  width: 500px;
+  height: 380px;
+  margin-top: 50px;
+  margin-right: 400px;
 }/*# sourceMappingURL=styles.css.map */
